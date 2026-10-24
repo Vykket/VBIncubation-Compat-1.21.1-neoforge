@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vykket.vbincubationcompat.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BirdNestBlockMixin",
+    "LayEggInNestGoalMixin",
+    "ChickenEggMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

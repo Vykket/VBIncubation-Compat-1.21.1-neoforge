@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "vbincubationcompat:block/brown_egg_crate_top",
+    "down": "vbincubationcompat:block/brown_egg_crate_bottom",
+    "north": "vbincubationcompat:block/brown_egg_crate_side",
+    "south": "vbincubationcompat:block/brown_egg_crate_side",
+    "east": "vbincubationcompat:block/brown_egg_crate_side",
+    "west": "vbincubationcompat:block/brown_egg_crate_side",
+    "particle": "vbincubationcompat:block/brown_egg_crate_side"
+  }
+}

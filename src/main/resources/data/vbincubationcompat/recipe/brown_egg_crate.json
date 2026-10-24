@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:brown_egg"
+    }
+  },
+  "result": {
+    "id": "vbincubationcompat:brown_egg_crate",
+    "count": 1
+  }
+}

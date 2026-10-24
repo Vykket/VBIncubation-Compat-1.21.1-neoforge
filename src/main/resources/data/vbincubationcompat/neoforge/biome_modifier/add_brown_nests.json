@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#vbincubationcompat:has_feature/brown_nest",
+  "features": "vbincubationcompat:brown_nest",
+  "step": "vegetal_decoration"
+}

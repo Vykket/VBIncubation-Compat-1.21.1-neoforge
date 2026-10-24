@@ -1,0 +1,58 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "incubation:block/hay_nest"
+      }
+    },
+
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/one_brown_egg"
+      },
+      "when": {
+        "eggs": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/two_brown_eggs"
+      },
+      "when": {
+        "eggs": 2
+      }
+    },
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/three_brown_eggs"
+      },
+      "when": {
+        "eggs": 3
+      }
+    },
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/four_brown_eggs"
+      },
+      "when": {
+        "eggs": 4
+      }
+    },
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/five_brown_eggs"
+      },
+      "when": {
+        "eggs": 5
+      }
+    },
+    {
+      "apply": {
+        "model": "vbincubationcompat:block/six_brown_eggs"
+      },
+      "when": {
+        "eggs": 6
+      }
+    }
+  ]
+}

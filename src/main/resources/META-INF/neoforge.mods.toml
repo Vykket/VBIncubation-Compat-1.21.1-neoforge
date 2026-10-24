@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+
+[[dependencies.vbincubationcompat]]
+modId="incubation"
+mandatory=true
+versionRange="[5.0.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.vbincubationcompat]]
+modId="blueprint"
+mandatory=true
+versionRange="[8.0.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.vbincubationcompat]]
+modId="vanillabackport"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="AFTER"
+side="BOTH"
+
+description='''
+Vanilla Backport + Incubation compatibility addon.
+Adds support for blue and brown eggs in Incubation nests.
+'''
+[[mixins]]
+config = "mixins.vbincubationcompat.json"
+
+

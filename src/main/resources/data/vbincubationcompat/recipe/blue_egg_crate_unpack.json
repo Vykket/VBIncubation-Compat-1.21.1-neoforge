@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vbincubationcompat:blue_egg_crate"
+    }
+  ],
+  "result": {
+    "id": "minecraft:blue_egg",
+    "count": 9
+  }
+}
+
